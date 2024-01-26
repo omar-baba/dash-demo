@@ -13,7 +13,7 @@ app.layout = html.Div([
         html.Div([
             dcc.Dropdown(
                 df['Indicator Name'].unique(),
-                'Fertility rate, total (births per woman)',
+                'Fertility rate - total (births per woman)',
                 id='xaxis-column'
             ),
             dcc.RadioItems(
@@ -27,7 +27,7 @@ app.layout = html.Div([
         html.Div([
             dcc.Dropdown(
                 df['Indicator Name'].unique(),
-                'Life expectancy at birth, total (years)',
+                'Life expectancy at birth - total (years)',
                 id='yaxis-column'
             ),
             dcc.RadioItems(
